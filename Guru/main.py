@@ -8,6 +8,8 @@ def main():
     
     a = 5
     b = 6
+
+    print("a+B")
     
     print(f"Addition of {a} and {b}: {add(a, b)}")
     print(f"Subtraction of {a} and {b}: {subtract(a, b)}")
