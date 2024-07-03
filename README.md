@@ -3,4 +3,6 @@
 # welcome To Malnad College of Engineering
 
 # This Course is conducted by Seminar Room
-- by GuruShankar
+- by Gurusankar
+
+# also developed my srujan 
