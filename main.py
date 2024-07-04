@@ -6,8 +6,8 @@ from division import divide
 def main():
     print("Simple Calculator Program")
     
-    a = 18
-    b = 55
+    a = 15
+    b = 8
     
     print(f"Addition of {a} and {b}: {add(a, b)}")
     print(f"Subtraction of {a} and {b}: {subtract(a, b)}")
