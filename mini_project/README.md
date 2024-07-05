@@ -50,11 +50,11 @@ apt-get -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin do
 
 # Example: Download application code from Git repository
 cd /home/ubuntu
-git clone https://github.com/Guru227/mce_devops
-cd mce_devops
+git clone https://github.com/thedarshanpgowda/thedarshanpgowda_devops.git
+cd thedarshanpgowda_devops
 
 # Adjust ownership to the ubuntu user
-chown -R ubuntu:ubuntu /home/ubuntu/mce_devops
+chown -R ubuntu:ubuntu /home/ubuntu/thedarshanpgowda_devops
 
 # docker permissions
 groupadd docker
@@ -90,7 +90,7 @@ sudo systemctl restart apache2
 echo "Apache reverse proxy configured successfully!"
 
 # Run the docker container
-cd /home/ubuntu/mce_devops/mini_project
+cd /home/ubuntu/thedarshanpgowda_devops/mini_project
 docker compose up
 ```
 
